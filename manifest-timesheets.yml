@@ -6,7 +6,7 @@ applications:
   memory: 1G
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://timesheets-pal-77114265-5abc-461d-b9bb-db4b26a08a4b.cfapps.io
+    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-1d0d8b92-f5ed-492b-aff1-82902a8226ae.cfapps.io
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
   services:
   - tracker-timesheets-database
